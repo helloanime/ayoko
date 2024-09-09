@@ -77,8 +77,8 @@ export const Card = ({
         </Link>
       ) : (
         <>
-          <Skeleton className="h-[180px] w-[130px] rounded-lg object-cover" />
-          <Skeleton className="mt-1 h-4 w-[130px] rounded-lg font-medium" />
+          <Skeleton className="h-[240px] w-[165px] rounded-lg object-cover" />
+          <Skeleton className="mt-1 h-4 w-[155px] rounded-lg font-medium" />
         </>
       )}
     </>
