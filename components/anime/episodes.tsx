@@ -121,7 +121,7 @@ const Episodes = ({
           {uniqueProviders.map((providerId) => (
             <SelectItem key={providerId} value={providerId}>
               {providerId === "hianime"
-                ? "Ayoko"
+                ? "ZoroTv"
                 : providerId === "animepahe"
                   ? "Animepahe"
                   : providerId === "sudatchi"

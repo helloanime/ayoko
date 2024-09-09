@@ -36,7 +36,7 @@ const SearchNavBar: React.FC = () => {
       className={`fixed left-0 top-0 z-[99999] flex h-16 w-full items-center px-6 text-foreground transition-colors`}
     >
       <div className={`flex-1 text-xl font-bold text-primary`}>
-        <Link href="/">Ayoko</Link>
+        <Link href="/">ZoroTv</Link>
       </div>
       <div className="flex items-center">
         <Link className={`text-foreground transition-colors`} href="/">
