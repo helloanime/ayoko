@@ -56,7 +56,7 @@ export const Card = ({
             <Image
               alt={anime.title.romaji}
               as={NextImage}
-              className="max-h-[240px] min-h-[240px] min-w-[165px] max-w-[165px] !rounded-sm object-cover"
+              className="max-h-[180px] min-h-[180px] min-w-[130px] max-w-[130px] !rounded-sm object-cover"
               height={278}
               src={anime.coverImage.replace("kitsu.io", "kitsu.app")}
               width={185}
