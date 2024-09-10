@@ -175,7 +175,6 @@ const Episodes = ({
               <EpisodeCard
                 key={episode.id}
                 createdAt={episode.released ?? "No date"}
-                episodeId={episode.id}
                 id={id}
                 number={episode.number || i + 1}
                 overview={
@@ -185,14 +184,17 @@ const Episodes = ({
                 providerId={selectedProvider!}
                 sub={selectedType}
                 thumbnail={
-                  episode.thumbnail ?? info.bannerImage ?? info.coverImage
+                  episode.thumbnail &&
+                  episode.thumbnail !== null &&
+                  episode.thumbnail !== ""
+                    ? episode.thumbnail
+                    : (info.bannerImage ?? info.coverImage)
                 }
                 title={episode.title ?? `Episode ${i + 1}`}
               />
             ) : (
               <SimpleEpisodeCard
                 key={episode.id}
-                episodeId={episode.id}
                 id={id}
                 number={episode.number || i + 1}
                 providerId={selectedProvider!}
