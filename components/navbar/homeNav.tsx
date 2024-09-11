@@ -43,6 +43,12 @@ const HomeNavBar: React.FC = () => {
           <Search className="h-6 w-6" />
         </Link>
       </div>
+      <div className="flex items-center">
+        <Link className={`text-foreground transition-colors`} href="/search">
+          <Search className="h-6 w-6" />
+        </Link>
+      </div>
+
     </motion.nav>
   );
 };
