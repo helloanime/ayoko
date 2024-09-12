@@ -96,7 +96,7 @@ export function Hero({ anime }: Readonly<{ anime: AnimeSeasonalModified[] }>) {
           </AnimatePresence>
           <div className="absolute inset-0 h-full w-full from-transparent to-background/75 bg-radient-circle-c" />
           <div className="absolute inset-0 h-full w-full bg-gradient-to-b from-transparent to-background pb-5">
-            <div className="ml-5 flex h-full flex-col justify-center">
+            <div className="ml-5 mt-5 flex h-full flex-col justify-center">
               {
                 <h1 className="text-xl font-bold sm:text-4xl">
                   {currentAnime.title.english ?? currentAnime.title.romaji}

@@ -87,7 +87,7 @@ const config: Config = {
               foreground: "#E0E0E0",
             },
             background: {
-              DEFAULT: "#121212",
+              DEFAULT: "#05010e",
               foreground: "#E0E0E0",
             },
             foreground: {
