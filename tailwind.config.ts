@@ -99,7 +99,7 @@ const config: Config = {
         light: {
           colors: {
             primary: {
-              DEFAULT: "#0056D2",
+              DEFAULT: "#4D148C",
               foreground: "#343A40",
             },
             secondary: {
