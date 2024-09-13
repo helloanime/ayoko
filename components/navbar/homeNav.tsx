@@ -43,7 +43,7 @@ const HomeNavBar: React.FC = () => {
           <Search className="h-6 w-6" />
         </Link>
       </div>
-      <a href="/">blog</a>
+      <a href="/blog/proff.tsx">blog</a>
     </motion.nav>
   );
 };
