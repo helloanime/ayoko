@@ -5,7 +5,7 @@ import React from "react";
 import HomeNavBar from "./homeNav";
 import InfoNavBar from "./infoNav";
 import SearchNavBar from "./searchNav";
-import blog from "./blog";
+import proff from "./proff";
 
 type NavBarProps = {
   navFor?: "home" | "info" | "search";
