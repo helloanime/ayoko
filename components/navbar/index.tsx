@@ -8,7 +8,7 @@ import SearchNavBar from "./searchNav";
 import proff from "./proff";
 
 type NavBarProps = {
-  navFor?: "home" | "info" | "search";
+  navFor?: "home" | "info" | "search" | "proff";
   title?: string;
 };
 
